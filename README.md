@@ -1,6 +1,6 @@
 # AGV-Fleet-Management-System-
 README.md 
-*Project Description:*  
+*Project Description:*
       Logistical activities like inbound and outbound transportation management, fleet 
 management, warehousing, and materials handling with automated guided vehicles (AGV) are 
 indispensable for Industry 4.0 integration. The involvement of the AGV Fleet has been shown to 
