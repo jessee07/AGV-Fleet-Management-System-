@@ -38,14 +38,14 @@ Tested with ROS 1 neotic under ubuntu 20.04
 
 3) global and local planner visualisation in Rviz
 
-![3](https://user-images.githubusercontent.com/104487026/179733447-698a2d45-d0b6-4f49-890c-03c44fe7cb3d.png)
+![3](https://user-images.githubusercontent.com/104487026/179733447-698a2d45-d0b6-4f49-890c-03c44fe7cb3d.png)<br /> 
 Fig:-3.1 Setting up of navigation goal
 
-![4](https://user-images.githubusercontent.com/104487026/179733476-216006a7-7864-49f0-8646-13c0a639dabc.png)
+![4](https://user-images.githubusercontent.com/104487026/179733476-216006a7-7864-49f0-8646-13c0a639dabc.png)<br /> 
 Fig:-3.2 global plan visualisation
 
 
-![5](https://user-images.githubusercontent.com/104487026/179733582-3cda2ff5-bb38-49d6-9420-de4abbdb30b3.png)
+![5](https://user-images.githubusercontent.com/104487026/179733582-3cda2ff5-bb38-49d6-9420-de4abbdb30b3.png)<br /> 
 Fig:-3.3 Local plan visualisation
 
 4) Updating Obstacles in the map visualisation
