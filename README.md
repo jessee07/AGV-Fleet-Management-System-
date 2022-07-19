@@ -1,2 +1,26 @@
 # AGV-Fleet-Management-System-
-README.md AGV-Fleet-Management-System Project Description:  The current industrial revolution mainly focuses on automation, artificial intelligence, and interconnectivity to optimize and manage the production processes and supply chain. As a result of it, AGVs are used in a range of industries to handle and transport items from one place to another. Currently, most of the AGVs in operations are portable and follow marking lines or magnets on the floor for navigation from one location to another. Since this type of AGV is restricted to travels only on dedicated paths, is less flexible, and gets stopped when comes in contact with obstacles, our project focuses on improving the flexibility of AGVs by decision making and navigating to the desired goal location with im-mobile and mobile obstacle avoidance. Implementation of our objective is divided into three main parts - mapping, localization, and navigation of an AGVs in the environment. ROS framework is used to code, coppeliasim and Rviz tool is used to visualize the simulation process.  Methodology :  Mapping - Simultaneous Localisation And Mapping Navigation Stack - Move base Global planner - NavfnROS ( Based on dijkstra algorithm ) Local planner - Dynamic Window Approach Localisation - Adaptive Monte Carlo Localisation  Installation  Tested with ROS 1 neotic under ubuntu 20.04  Works  1) Warehouse Environment created in Coppeliasim and mapping is done with SLAM alogirthm  image  2) Localisation of Robot using AMCL  image  3) global and local planner visualisation in Rviz  image  Fig:-3.1 Setting up of navigation goal  image  Fig:-3.2 global plan visualisation  image  Fig:-3.3 Local plan visualisation  4) Updating Obstacles in the map visualisation  image  5) working of multi-bot navigation  image
+README.md 
+Project Description:  
+      Logistical activities like inbound and outbound transportation management, fleet 
+management, warehousing, and materials handling with automated guided vehicles (AGV) are 
+indispensable for Industry 4.0 integration. The involvement of the AGV Fleet has been shown to 
+increase the efficiency of logistical activities by increasing throughput and reducing delays in the 
+manufacturing sectors. The system is designed such that the robot can operate on a known ‘map’ 
+laid out on the warehouse floor. When starting and ending coordinates are provided, it can calculate 
+the shortest path to its destination and guide itself along the path avoiding obstacles. The project 
+was executed in a simulation software called Coppeliasim and the results were visualized in 
+software called Rviz, and control software was implemented using Robot Operating System (ROS) 
+and interfacing for the sensors , robots
+was done using python scripts. 
+
+Methodology :
+
+Mapping - Simultaneous Localisation And Mapping
+Navigation Stack - Move base
+Global planner - NavfnROS ( Based on dijkstra algorithm )
+Local planner - Dynamic Window Approach
+Localisation - Adaptive Monte Carlo Localisation
+
+Installation
+
+Tested with ROS 1 neotic under ubuntu 20.04
